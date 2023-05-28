@@ -2,23 +2,22 @@ body {
     background-color: lightsalmon;
 }
 
+h1,
+h2 {
+    font-family: 'Pacifico', sans-serif;
+    color: darkcyan;
+}
+
+h1 {
+    text-align: center;
+}
+
 .container{
     background: bisque;
     padding: 20px;
     width: 70%;
     max-width: 1000px;
     margin: auto;
-}
-
-h1 {
-    font-size: 48px;
-}
-
-h1,
-h2 {
-    text-align: center;
-    color: darkcyan;
-    font-family: 'Pacifico', sans-serif;
 }
 
 .imgbox {
@@ -34,17 +33,15 @@ h2 {
     border: 0%;
 }
 
-.links {
-    width: 22%;
+.numbers {
     text-align: center;
-    list-style-position: inside;
-    margin: auto;
+    font-family: 'Pacifico', sans-serif;
+    color: darkcyan;
+    font-size: 24px;
 }
 
-p {
-    font-family: 'Roboto Slab', serif;
-}
-
+p,
 ul {
+    text-align: justify;
     font-family: 'Roboto Slab', serif;
 }
