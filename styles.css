@@ -1,5 +1,5 @@
 body {
-    background-color: lightsalmon;
+    background-image: url("images/wood-background.jpg");
 }
 
 .container{
@@ -8,6 +8,8 @@ body {
     width: 70%;
     max-width: 1000px;
     margin: auto;
+    border-radius: 50px 15px;
+    box-shadow: 10px 10px 10px rgb(50, 50, 50);
 }
 
 h1 {
@@ -39,6 +41,7 @@ h2 {
     text-align: center;
     list-style-position: inside;
     margin: auto;
+    color: rgb(0, 80, 0);
 }
 
 p {
