@@ -1,11 +1,24 @@
 body {
-    background-color: bisque;
+    background-color: lightsalmon;
+}
+
+.container{
+    background: bisque;
+    padding: 20px;
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 48px;
 }
 
 h1,
 h2 {
     text-align: center;
     color: darkolivegreen;
+    font-family: 'Pacifico', cursive;
 }
 
 .imgbox {
@@ -22,7 +35,8 @@ h2 {
 }
 
 .links {
-    width: 30%;
+    width: 22%;
     text-align: center;
+    list-style-position: inside;
     margin: auto;
 }
