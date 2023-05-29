@@ -19,7 +19,6 @@ h1 {
     max-width: 1000px;
     margin: auto;
     border-radius: 50px 15px;
-    border-radius: 50px 15px;
     box-shadow: 10px 10px 10px rgb(50, 50, 50);
 }
 
@@ -48,4 +47,15 @@ ul {
     text-align: justify;
     font-family: 'Roboto Slab', serif;
     color: rgb(0, 80, 0);
+}
+
+.paragraph {
+    background-color: beige;
+    padding: 5px;
+    border-radius: 20px 7px;
+    box-shadow: 5px 5px 5px rgb(50, 50, 50);
+}
+
+.paragraph p {
+    margin: 20px;
 }

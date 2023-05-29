@@ -51,3 +51,30 @@ p {
 ul {
     font-family: 'Roboto Slab', serif;
 }
+
+.linkbox {
+    text-align: center;
+}
+
+.linkbox img {
+    height: 150px;
+    width: 200px;
+}
+
+.links {
+    display: inline-block;
+    margin: 4%;
+    background-color: beige;
+    height: 210px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(50, 50, 50);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.links:hover {
+    transform: translateY(-10px);
+}
