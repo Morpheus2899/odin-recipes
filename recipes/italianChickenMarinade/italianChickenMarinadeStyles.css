@@ -34,6 +34,7 @@ h1 {
     max-width: 800px;
     height: auto;
     border: 0%;
+    border-radius: 20px;
 }
 
 .numbers {
@@ -48,4 +49,49 @@ ul {
     text-align: justify;
     font-family: 'Roboto Slab', serif;
     color: rgb(0, 80, 0);
+}
+
+.paragraph {
+    background-color: beige;
+    padding: 5px;
+    border-radius: 20px 7px;
+    box-shadow: 5px 5px 5px rgb(50, 50, 50);
+}
+
+.paragraph p {
+    margin: 20px;
+}
+
+.buttonsBox {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: white;
+    color: darkcyan;
+    height: 50px;
+    width: 150px;
+    border: 5px solid;
+    border-color: darkcyan;
+    margin-inline: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+button:hover {
+    transform: translateY(-10px);
+    background-color: darkcyan;
+    color: white;
 }
