@@ -42,7 +42,18 @@ h2 {
     text-align: center;
     list-style-position: inside;
     margin: auto;
-    color: rgb(0, 80, 0);
+    color: white;
+    display: inline-block;
+    margin: 2%;
+    background-color: darkcyan;
+    height: 210px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(50, 50, 50);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
 p {
@@ -61,20 +72,6 @@ ul {
     height: 150px;
     width: 200px;
     border-radius: 10px;
-}
-
-.links {
-    display: inline-block;
-    margin: 4%;
-    background-color: beige;
-    height: 210px;
-    width: 200px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px rgb(50, 50, 50);
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
 }
 
 .links:hover {
